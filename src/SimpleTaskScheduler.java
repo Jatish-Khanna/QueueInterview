@@ -1,3 +1,9 @@
+/**
+ * Summary:
+ * Time Complexity: O(n) where n is the number of tasks.
+ * Space Complexity: O(1) since we only use a constant amount of space aside from the input.
+ */
+
 public class SimpleTaskScheduler {
 
 
