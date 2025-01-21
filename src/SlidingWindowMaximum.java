@@ -1,7 +1,17 @@
 import java.util.Arrays;
 import java.util.LinkedList;
-import java.util.Queue;
 
+/**
+ * Time and Space Complexity Analysis:
+ * Time Complexity:
+ * Each index is added to the deque and removed at most once.
+ * Therefore, the time complexity for processing the array is O(n),
+ * where n is the length of the input array.
+ * Space Complexity:
+ * The space complexity is O(k),
+ * where k is the size of the sliding window.
+ * In the worst case, the deque will store up to k indices at any time.
+ */
 public class SlidingWindowMaximum {
 
   static LinkedList<Integer> window = new LinkedList<>();
