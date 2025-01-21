@@ -1,6 +1,17 @@
 import java.util.LinkedList;
 import java.util.Queue;
 
+/**
+ * Summary of Complexity:
+ * Time Complexity:
+ * <p>
+ * insert(char newChar): O(1)
+ * getFirstNonRepeating(): O(n) (in the worst case, where n is the number of characters in the queue)
+ * Space Complexity:
+ * <p>
+ * O(n), where n is the number of characters in the queue.
+ * The frequency array uses O(1) space since its size is fixed (256 for ASCII characters).
+ */
 public class FirstNonRepeatingCharacter {
 
   int[] data;
