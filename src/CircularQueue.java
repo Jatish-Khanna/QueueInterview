@@ -1,3 +1,9 @@
+/**
+ * Enqueue Time Complexity: O(1)
+ * Dequeue Time Complexity: O(1)
+ * Space Complexity: O(n),
+ * where n is the capacity of the queue (i.e., the number of elements it can hold).
+ */
 public class CircularQueue {
 
   int[] data;
